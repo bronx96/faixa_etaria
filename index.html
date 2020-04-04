@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+    <header>
+      <h1> Diga sua idade e sexo</h1>
+    </header>
+    <section>
+      <div>
+        Sua idade
+         <p>
+           <input type="number" id="nascimento">
+        </p>
+        seu sexo
+        <p>
+          <input type="radio" name="sex" id="masc" checked>
+          <label for="masc">Masculino</label>
+          <input type="radio" name="sex" id="fem">
+          <label for="fen"> Feminino</label>
+        </p>
+        <input type="button" value="checar" onclick="checar()">
+
+      </div>
+      <div id="resultado">
+        
+      </div>
+    </section>
+    <footer>
+      &copy;Marcos Paulo
+    </footer>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
