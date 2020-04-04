@@ -11,9 +11,9 @@ section{
 color: black;
 background-color: white;
 border-radius: 10px;
-padding: 10px;
+padding: 10px;/*margem interna*/
 margin: auto;
-width: 500px
+width: 500px /*lagura*/
 }
 footer{
 }
